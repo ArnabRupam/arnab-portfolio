@@ -170,14 +170,14 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 100); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
+						}, text.length * 100);
 						}
 
 						// Start the typing animation loop
@@ -561,7 +561,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 91 8240368776</a></p>
+	            <p><a href="tel://8240368776">+ 91 8240368776</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -570,7 +570,10 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">arnab.bandyopadhyay.career.com</a></p>
+	            <!-- <p><a href="mailto:arnab.bandyopadhyay01@gmail.com">arnab.bandyopadhyay01@gmail.com</a></p> -->
+				 <p style="word-break: break-all; max-width: 100%; margin: 0 auto;">
+  					<a href="mailto:arnab.bandyopadhyay01@gmail.com" style="display: inline-block;">arnab.bandyopadhyay01@gmail.com</a>
+				</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -579,7 +582,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1Q289j_xTeCJTuoT03LwstQM8mIbWGFRa/view?usp=sharing">resumelink</a></p>
+	            <p><a href="https://drive.google.com/file/d/1Q289j_xTeCJTuoT03LwstQM8mIbWGFRa/view?usp=sharing">Download Resume
 	          </div>
           </div>
 
