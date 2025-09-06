@@ -130,6 +130,7 @@
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
 	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="#recommendation-section" class="nav-link"><span>Recommendations</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
@@ -326,7 +327,7 @@
 		<div class="row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">May , 2025 - Present</span>
+						<span class="date">May , 2023 - Present</span>
 						<h2>Business Research Analyst Intern</h2>
 						<span class="position">Avance Insights pvt.ltd</span>
 						<p class="mt-4">Avance Insights is a new age strategic research and brand solution agency. They leverage advanced technologies to provide actionable insights to power your business in real-time.
@@ -480,6 +481,47 @@
 	  </div>
     </section>
 
+
+	 <section class="ftco-section" id="recommendation-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-5">
+      <div class="col-md-8 heading-section text-center ftco-animate">
+        <h1 class="big big-2">Recommendations</h1>
+        <h2 class="mb-4">What People Say</h2>
+        <p>Here are a few recommendations from professionals I’ve worked with.</p>
+      </div>
+    </div>
+
+    <div class="owl-carousel testimonial-carousel ftco-animate">
+      <!-- Testimonial 1 -->
+      <div class="item text-center">
+        <div class="block-20 zoom-effect mx-auto mb-3" style="background-image: url('images/director_Avance.png'); width:150px; height:150px; border-radius: 50%; background-size: cover;"></div>
+        <h3 class="heading">Manoj Jha</h3>
+        <span class="position">Director, Avance Insights</span>
+        <p class="mt-2">"We found Arnab to enthusiastic, punctual and dedicated towards the assigned tasks. Arnab demonstrated a willingness to learn and contributed positively to the team and work"</p>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="item text-center">
+        <div class="block-20 zoom-effect mx-auto mb-3" style="background-image: url('images/person_1.jpg'); width:150px; height:150px; border-radius: 50%; background-size: cover;"></div>
+        <h3 class="heading">Shivam Tripathi</h3>
+        <span class="position">Finance & Market Strategist</span>
+        <p class="mt-2">"Arnab's ability to translate data into business value is outstanding. His dashboards made our reports actionable."</p>
+      </div>
+      <!-- Testimonial 3 -->
+      <!-- <div class="item text-center">
+        <div class="block-20 zoom-effect mx-auto mb-3" style="background-image: url('images/person_3.jpg'); width:150px; height:150px; border-radius: 50%; background-size: cover;"></div>
+        <h3 class="heading">Priya Kapoor</h3>
+        <span class="position">Senior Analyst, DataBridge</span>
+        <p class="mt-2">"Arnab’s attention to detail and storytelling through data is truly commendable. A great asset to any analytics team!"</p>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+
+
+
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
 		<div class="row d-md-flex align-items-center">
@@ -582,7 +624,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1Q289j_xTeCJTuoT03LwstQM8mIbWGFRa/view?usp=sharing">Download Resume
+	            <p><a href="https://drive.google.com/file/d/1WtZnO7PNespmwr_dAdTGIfWksE4MQ0lw/view?usp=sharing">Download Resume
 	          </div>
           </div>
 
@@ -607,6 +649,8 @@
 		   </div>
    </div>
  </section>
+
+
 
 
  
@@ -643,6 +687,22 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+  <script>
+  $('.testimonial-carousel').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      responsive: {
+        0: { items: 1 },
+        768: { items: 1 },
+        992: { items: 2 }
+      }
+  });
+</script>
+
     
   </body>
 </html>
